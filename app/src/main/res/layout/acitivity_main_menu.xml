@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="#ff000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/food"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/food_icon"
+            android:text="Food"
+            android:textSize="20dp"
+            android:scaleType="fitCenter"
+            android:textColor="#ffffffff"
+            android:padding="5dp"
+            android:gravity="bottom|center"
+            android:clickable="true"
+            android:onClick="onButtonClickedCategory" />
+
+        <Button
+            android:id="@+id/history"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/history_icon"
+            android:text="History"
+            android:textSize="20dp"
+            android:textColor="#ffffffff"
+            android:scaleType="fitCenter"
+            android:padding="5dp"
+            android:gravity="bottom|center"
+            android:onClick="onButtonClickedCategory"
+            android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/science"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/science_icon"
+            android:text="Science"
+            android:textSize="20dp"
+            android:textColor="#ffffffff"
+            android:scaleType="fitCenter"
+            android:padding="5dp"
+            android:gravity="bottom|center"
+            android:onClick="onButtonClickedCategory" />
+
+        <Button
+            android:id="@+id/games"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/games_icon"
+            android:text="Games"
+            android:textSize="20dp"
+            android:textColor="#ffffffff"
+            android:scaleType="fitCenter"
+            android:padding="5dp"
+            android:gravity="bottom|center"
+            android:onClick="onButtonClickedCategory" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/settings"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/setting_icon2"
+            android:text="Settings"
+            android:textSize="20dp"
+            android:textColor="#ffffffff"
+            android:scaleType="fitCenter"
+            android:padding="5dp"
+            android:gravity="bottom|center"
+            android:onClick="onButtonClickedOther" />
+
+        <Button
+            android:id="@+id/leaderboards"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/leaderboard_icon"
+            android:text="Leaderboards"
+            android:textSize="20dp"
+            android:textColor="#ffffffff"
+            android:scaleType="fitCenter"
+            android:padding="5dp"
+            android:gravity="bottom|center"
+            android:onClick="onButtonClickedOther" />
+    </LinearLayout>
+
+</LinearLayout>

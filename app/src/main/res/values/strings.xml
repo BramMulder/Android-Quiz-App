@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_quiz_food">Quiz_food</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_leaderboard">Leaderboard</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <string name="title_activity_user_score">userScore</string>
+    <string name="questionText">Error</string>
+</resources>

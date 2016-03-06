@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/userImageLogin"
+            android:src="@drawable/jb_pp"
+            android:layout_above="@+id/insertName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="41dp"
+            android:paddingTop="30dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/insertName"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:hint="Insert Name"
+            android:layout_marginBottom="52dp"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:id="@+id/okButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="buttonClicked"
+            android:layout_weight="0.2"/>
+
+</LinearLayout>
